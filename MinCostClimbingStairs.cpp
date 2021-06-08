@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+//Time complexity: O(N), Space complexity: O(N)
 void minCostClimbingStairs(vector<int>& cost) {
         int dp[cost.size()];
         dp[0]=cost[0];
